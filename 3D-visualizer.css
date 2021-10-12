@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#vacan{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: italic;
+}
+#caccan1{
+    font-weight: 600;
+}
+#trm{
+    color: red;
+}
+
+/* set lahore */
+#bol1{
+    font-weight:700;
+}
+#bol2{
+    font-weight:900;
+}
+#bol3{
+    font-weight: 700;
+}
+
+#bol4{
+    font-weight: 700;
+}
+#bol5{
+    font-weight: 700;
+}
+#bol6{
+    font-weight: 700;
+}
+#bol7{
+    font-weight: 900;
+    color: white;
+}
+/* use set box */
+#box-set{
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px rgba(223, 215, 215, 0.849);
+    color: rgba(66, 59, 59, 0.829);
+}
+
+.ser-left h4{
+    font-weight: 800;
+}
+.ser-left a{
+    color: rgba(66, 59, 59, 0.829);
+    text-decoration: none !important;
+}
+.ser-left a:hover{
+    color: red;
+}
+
+#hhju{
+    background-color: #000;
+    color:#000;
+}
+
+#bornone{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(90, 86, 86);
+  }
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid red;
+  }
+
+
+
+  /* use footer */
+li a{
+    color: #000;
+    line-height: 15px;
+}
+li a:hover{
+    color: red;
+}
+#trmbpo{
+    color: red;
+    text-transform: uppercase;
+    
+}
+
+#bornone{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid red;
+  }

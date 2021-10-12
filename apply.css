@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#form-img{
+    background-image: url(/img/apply/apply1.jpeg);
+    background-size: cover;
+}
+
+#span1{
+    border: dotted red;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid red;
+  }
+  /* #bornone{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid red;
+  } */
+
+
+  .bornone{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid red;
+  }
+ #hhh{
+    box-sizing: border-box;
+    border: none;
+ }

@@ -1,0 +1,509 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#solutioncurser{
+  cursor: pointer;
+}
+/* use box */
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+      font-size: 20px
+  }
+
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+}
+
+#h61 a {
+  font-size: 20px !important;
+
+}
+/* use video div */
+
+#video{
+  width: 100%;
+  height: 98vh;
+  object-fit: cover;
+  position: relative;
+}
+
+
+#carrer-lift {
+  text-align: right;
+  justify-content: right;
+  justify-items: right;
+}
+#back-video {
+  position: relative;
+}
+.h22 {
+  color: red;
+  font-weight: 900px;
+}
+
+#bar1 {
+  width: 20px !important;
+  position: fixed;
+  float: left;
+}
+.main-v {
+  /* margin-top: 200px; */
+  color: white;
+  font-weight: bolder;
+}
+#main-h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+button {
+  color: white !important;
+  border-color: white !important;
+  font-weight: 50px;
+}
+button a {
+  text-transform: capitalize;
+  text-decoration: none !important;
+  color: white;
+}
+button a:hover {
+  color: white;
+}
+
+/* use send position apply */
+#todaycolor {
+  background-color: rgba(190, 182, 182, 0.493);
+}
+#second-bol {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #000 !important;
+}
+#jjiwhte {
+  color: #000;
+}
+
+/* use set box */
+#box-set {
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(223, 215, 215, 0.849);
+  color: rgba(66, 59, 59, 0.829);
+}
+
+.ser-left h4 {
+  font-weight: 800;
+}
+.ser-left a {
+  color: rgba(66, 59, 59, 0.829);
+  text-decoration: none !important;
+}
+.ser-left a:hover {
+  color: red;
+}
+
+#hhju {
+  background-color: #000;
+  color: #000;
+}
+
+/* use main-img with three col */
+#main-img-3 {
+  background-image: url(/img/main3.jpeg);
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
+#position1 {
+  margin-top: -130px;
+}
+#three-col {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#main-card {
+  background-color: white;
+  margin-top: 40px;
+}
+
+#main-card h4 {
+  font-weight: 800;
+}
+
+#main-card:hover {
+  background-color: #000;
+  color: white;
+}
+
+#main-card1 {
+  background-color: white;
+  margin-top: 15px;
+}
+#main-card1:hover {
+  background-color: #000;
+  color: white;
+}
+#main-card1 h4 {
+  font-weight: 800;
+}
+#hhjU1 {
+  background-color: #000;
+  color: #000;
+}
+
+/* use icon position */
+#fotweight {
+  font-size: 60px;
+  font-weight: bolder;
+}
+#smalweight {
+  font-weight: 800;
+}
+/* use giving respect */
+#text1 {
+  font-weight: 500;
+  color: gray;
+}
+#text2 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+/* use owl-carousel */
+.bor-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#freque {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+/* use frequently */
+#tog2 {
+  display: none;
+}
+#tog1 {
+  font-weight: 700;
+}
+#hov1:hover {
+  color: rgb(226, 59, 59);
+}
+#hov1 h6 {
+  display: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#toG12 {
+  font-weight: 700;
+}
+#Tog13 {
+  font-weight: 700;
+}
+#tog14 {
+  font-weight: 700;
+}
+#tog15 {
+  font-weight: 700;
+}
+#tog16 {
+  font-weight: 700;
+}
+#tog17 {
+  font-weight: 700;
+}
+
+/* use get in tech */
+#threeB {
+  background-color: #000;
+}
+#threeB2 {
+  background-color: #000;
+}
+#threeB3 {
+  border-color: #000 !important;
+}
+.again3 {
+  color: white;
+  background-color: #000;
+}
+
+/* use color area */
+#freque1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 800;
+}
+#frequ21 {
+  font-size: 40px;
+}
+#negt {
+  margin-top: -10px;
+  color: white;
+  padding-left: 10px;
+}
+#customer {
+  padding-left: 10px;
+}
+#trm img {
+  border-bottom-left-radius: 140px;
+  border-bottom-right-radius: 20px;
+  opacity: 0.6;
+  box-shadow: 0px 2px 17px 0px rgba(158, 137, 137, 0.692);
+}
+
+/* #trm img:hover{
+    
+    box-shadow: 0px 2px 17px 0px rgba(158, 137, 137, 0.692);
+} */
+
+/* use footer */
+li a {
+  color: #000;
+  line-height: 15px;
+}
+li a:hover {
+  color: red;
+}
+#trmbpo {
+  color: red;
+  text-transform: uppercase;
+}
+
+#bornone {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+}
+
+/* use modal box */
+.modalbox {
+  font-weight: 600;
+  color: red;
+}
+.mainh6 h6 {
+  font-weight: 900;
+  padding-top: 10px;
+}
+.mainh6 h6 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.mainh6 h6 a:hover {
+  color: grey;
+  opacity: 0.7;
+}
+
+#sildbox1 {
+  background-color: rgba(201, 69, 69, 0.486);
+}
+#boxh2 a {
+  text-decoration: none;
+  /* color: white; */
+  color: #000000;
+  opacity: 0.5;
+}
+#boxh2 a:hover {
+  opacity: 0.9;
+}
+#boxh2 {
+  color: white;
+}
+
+#box-back {
+  background-color: #0000002d;
+}
+#modalbaxground {
+  display: none;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 100px; Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+#modalbaxground {
+  background-color: rgba(209, 118, 118, 0.692); /* Fallback color */
+  background-color: rgba(177, 63, 63, 0.493); /* Black w/ opacity */
+  z-index: 1;
+}
+/* 
+  .leftes{
+border-left: solid;
+   
+  } */
+
+/* chect status */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  /* position: relative; */
+  top: 25%;
+  width: 100%;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  text-align: left;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 36px; */
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  /* position: absolute; */
+  /* top: 20px; */
+  /* right: 45px; */
+  align-content: right;
+  text-align: end;
+  margin-right: 130px;
+  font-size: 30px;
+}
+#button211 {
+  display: none;
+}
+
+/* chect status  again*/
+
+.overlay1 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9); */
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.lay-content {
+  /* position: relative; */
+  top: 25%;
+  width: 100%;
+  /* text-align: center; */
+  /* margin-top: 30px; */
+  text-align: left;
+}
+
+.overlay1 a {
+  padding: 8px;
+  text-decoration: none;
+  /* font-size: 36px; */
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay1 a:hover,
+.overlay1 a:focus {
+  color: #f1f1f1;
+}
+
+.overlay1 .closebtn {
+  /* position: absolute; */
+  /* top: 20px; */
+  /* right: 45px; */
+  align-content: right;
+  text-align: end;
+  margin-right: 130px;
+  font-size: 30px;
+}
+
+#main1 {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#boxh2 a {
+  color: white !important;
+}
+.m1:hover {
+  background-color: rgba(56, 56, 167, 0.616);
+}
+
+.m2:hover {
+  background-color: rgba(88, 172, 206, 0.616);
+}
+
+.m3:hover {
+  background-color: rgba(6, 112, 59, 0.616);
+}
+
+.m4:hover {
+  background-color: rgba(185, 176, 45, 0.616);
+}
+.m5:hover {
+  background-color: rgba(2, 39, 22, 0.616);
+}
+#aaa a:hover {
+  color: white !important;
+}

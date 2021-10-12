@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apply</title>
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="/apply.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <!-- use form  -->
+     <div class="col-md-12">
+
+        <div class="row">
+            <div class="col-md-4 p-md-5 text-white" id="form-img">
+
+                <h2 class="pt-md- mt-md-5">lahore</h2>
+                <h1 class="pb-md-4">social media coordinator</h1>
+                <div id="span1" class="p-md-5 text-center" style="width: 100%;">
+                    <h1><i class="far fa-hand-point-up text-white pt-md-5" style="font-size: 70px;"></i></h1>
+                    <h4 class="text-center mt-md-4 text-secondary"><a href="" class="text-secondary">drop and drag your resume here </a>
+                    <p class="small text-center">max.file size 2MB</p></h4>
+                    <button type="button" class="btn text-capitalize btn btn-info mt-md-4 mb-md-5">attach resume</button>
+                </div>
+            </div>
+
+            <!-- use col-8 -->
+            <div class="col-md-8 bg-light p-md-5 text-uppercase">
+                <form action="/form.php" onsubmit="return validation()" method="POST">
+                       <div class="row p-md-5">
+                            <div class="col-md-6">
+                                <div class="col-md-12 text-uppercase">
+
+                                    <div class="form-group">
+                                        <label>your full name</label>
+                                        <input type="text" name="Name" id="Name" class="bg-light bornone">
+                                        <span id="printname" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label>select gender</label>
+                                        <!-- <input type="text" name="gender" id="gender" class="form-control"> -->
+                                        <select id="gender" class="text-capitalize bornone bg-light" style="width: 100%;" >
+                                            <option value="volvo" id="male"><h6>male</h6></option>
+                                            <option value="saab" id="female"><h3>female</h3></option>
+                                            <option value="opel" id="other"><h3>not specified</h3></option>
+                                          </select>
+                                        <span id="selgender" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>cnic number</label>
+                                        <input type="text" name="cnic" id="cnic" class="bg-light bornone">
+                                        <span id="cnicnumb" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>contact number</label>
+                                        <input type="text" name="contact" id="contact" class="bg-light bornone">
+                                        <span id="contactnumber" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>email address </label>
+                                        <input type="text" name="mail" id="Email" class=" bg-light">
+                                        <span id="email" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>how did you hear about this opening ?</label>
+                                        <!-- <input type="text" name="pra" id="about" class="form-control"> -->
+                                        <select class="bornone text-capitalize bg-light" style="width: 100%;" >
+                                            <option value="volvo"><h6>all</h6></option>
+                                            <option value="saab"><h3>accounting / finance</h3></option>
+                                            <option value="opel"><h3>administration</h3></option>
+                                            <option value="audi"><h3>business development /sales / marketing</h3></option>
+                                            <option value="audi"><h3>call center / bpo</h3></option>
+                                            <option value="audi"><h3>human resources</h3></option>
+                                            <option value="audi"><h3>information technology</h3></option>
+                                            <option value="audi"><h3>marketing</h3></option>
+                                            <option value="audi"><h3>research and development</h3></option>
+                                            <option value="audi"><h3>software</h3></option>
+                                          </select>
+                                        <span id="aboutYou" class="text-danger font-weight-bold"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- again col-6 -->
+
+                            <div class="col-md-6">
+                                <div class="col-md-12">
+                               
+                                    <div class="form-group">
+                                        <label>age</label>
+                                        <input type="text" name="age" id="AGE" class="bg-light bornone">
+                                        <span id="Age" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>education</label>
+                                        <input type="text" name="education" id="Educ" class="bg-light bornone">
+                                        <span id="EDUCATION" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>language</label>
+                                        <input type="text" name="lang" id="language" class="bg-light bornone">
+                                        <span id="LANge" class="text-danger font-weight-bold"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>alternate contact number</label>
+                                        <input type="text" name="alter" id="otherCont" class="bg-light bornone">
+                                        <span id="ALternate" class="text-danger font-weight-bold"></span>
+                                    </div>
+    
+                                     <label for="lname" class="small pt-md-4">select location</label>
+                                     <!-- <input type="text" id="lname" name="lname"> -->
+                                     <select id="location" class="text-capitalize bg-light bornone" style="width: 100%;" >
+                                         <option value="volvo"><h6>lahore</h6></option>
+                                         
+                                        
+                                       </select>
+                                   
+                                  
+                            </div>
+                            </div>
+
+                            <button type="submit" value="submit" class="btn btn-danger px-md-5 ml-md-5">submit</button>
+
+                       </div>
+                </form>
+            </div>
+        </div>
+     </div>
+
+
+     <script>
+         function validation(){
+            var fristN = document.getElementById("Name").value;
+               if(fristN == ""){
+                     document.getElementById("printname").innerHTML ="please fill the username field";
+                     return false;
+                 };
+
+                 if((fristN.lenght <= 2) || (fristN.lenght > 20)){
+                    document.getElementById("printname").innerHTML ="you have only 20 char enter only";
+                     return false;
+                 }
+
+                 if(!isNaN(fristN)){
+                    document.getElementById("printname").innerHTML ="number are not allowed";
+                     return false;
+                 }
+
+
+
+
+                //  use cnic
+                var CNIC = document.getElementById("cnic").value;
+               if(CNIC == ""){
+                     document.getElementById("cnicnumb").innerHTML ="please enter cinc only deijat";
+                     return false;
+                 }
+
+                 if((CNIC.lenght <x= 1) || (CNIC.lenght > 13)){
+                    document.getElementById("cnicnumb").innerHTML ="you only 13 number allowed";
+                     return false;
+                 }
+
+                 if(isNaN(CNIC)){
+                    document.getElementById("cnicnumb").innerHTML ="user must write number value";
+                     return false;
+                 }
+
+
+
+                  //  use contant number
+                var CONTACT = document.getElementById("contact").value;
+               if(CONTACT == ""){
+                     document.getElementById("contactnumber").innerHTML ="please enter contact number";
+                     return false;
+                 }
+
+                 if((CONTACT.lenght <= 1) || (CONTACT.lenght > 11)){
+                    document.getElementById("contactnumber").innerHTML ="you only 11 number allowed";
+                     return false;
+                 }
+
+                 if(isNaN(CONTACT)){
+                    document.getElementById("contactnumber").innerHTML ="enter only number value";
+                     return false;
+                 }
+
+                  //  use Email
+                var Email = document.getElementById("Email").value;
+               if(Email == ""){
+                     document.getElementById("email").innerHTML ="please your email";
+                     return false;
+                 }
+
+                  //  use AGE
+                var AGE = document.getElementById("AGE").value;
+               if(AGE == ""){
+                     document.getElementById("Age").innerHTML ="please enter your age";
+                     return false;
+                 }
+
+                  //  use Educ
+                var education = document.getElementById("Educ").value;
+               if(education == ""){
+                     document.getElementById("EDUCATION").innerHTML ="please enter your education";
+                     return false;
+                 }
+
+                  //  use language
+                var lage = document.getElementById("language").value;
+               if(lage == ""){
+                     document.getElementById("LANge").innerHTML ="select your language";
+                     return false;
+                 }
+
+                  //  use otherCont
+                var alter = document.getElementById("otherCont").value;
+               if(alter == ""){
+                     document.getElementById("ALternate").innerHTML ="please enter your alternate number";
+                     return false;
+                 }
+
+                 
+         }
+     </script>
+</body>
+</html>
